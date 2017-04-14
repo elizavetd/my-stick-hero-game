@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Stick Hero</title>
+    <link href="#" rel="icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+</head>
+
+<body>
+    
+    <div id="game">
+        <div class="homepage">
+            <h1>STICK HERO</h1>
+            <div class="button-start">
+                <p>Start</p>
+            </div>
+        </div>
+        <div class="currentScore">
+            <p class="scoreNumber">0</p>
+            <!--<h5>+1</h5>-->
+        </div>
+        <div class="hero">
+            <div class="hero-body">
+                <div class="eye"></div>
+                <div class="ribbon">
+                    <div class="ribbon-end"></div>
+                    <div class="ribbon-end"></div>
+                </div>
+                <div class="leg left"></div>
+                <div class="leg right"></div>
+            </div>
+            <div class="column"></div>
+        </div>
+        <div class="gameOver">
+            <h2>Game Over</h2>
+            <div class="scoreTable">
+                <div class="gameScore">
+                    <p>Score:</p>
+                    <p class="scoreNumber">0</p>
+                </div>
+                <div class="gameButton">Home</div>
+                <div class="gameButton">Retry</div>
+            </div>
+        </div>
+    </div>
+
+    <canvas id="canvas"></canvas>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="./js/game.js"></script>
+</body>
+
+</html>
